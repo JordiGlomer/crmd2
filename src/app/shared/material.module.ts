@@ -6,6 +6,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatIconModule } from "@angular/material/icon";
 import { MatCardModule } from "@angular/material/card";
+import { HomeComponent } from './home/home.component';
 @NgModule({
   exports: [
     CommonModule,
@@ -15,6 +16,9 @@ import { MatCardModule } from "@angular/material/card";
     MatFormFieldModule,
     MatIconModule,
     MatCardModule
+  ],
+  declarations: [
+    HomeComponent
   ]
 })
 export class MaterialModule { }

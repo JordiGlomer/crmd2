@@ -7,11 +7,14 @@ import { AppComponent } from './app.component';
 import { UserModule } from './user/user.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SplashScreenComponent,
+
   ],
   imports: [
     BrowserModule,
